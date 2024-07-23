@@ -1,0 +1,18 @@
+input:valid {
+  background: lightgreen;
+}
+
+input:invalid {
+  background: coral;
+}
+
+input[type='text'] {
+  margin-left: 20px;
+}
+
+input[type='password'] {
+  margin-left: 15px;
+}
+input[type='email'] {
+  margin-left: px;
+}
