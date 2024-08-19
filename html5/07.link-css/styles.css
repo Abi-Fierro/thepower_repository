@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(52, 52, 52);
+}
+
+h1 {
+  color: white;
+}
+
+li {
+  color: whitesmoke;
+  font-style: oblique;
+}
+
+p {
+  color: skyblue;
+}
+
+/* La etiqueta p tiene que tener un color “skyblue”. 
+
+- La etiqueta h1 tiene que tener un color “white”.
+
+- La etiqueta li tiene que tener un color “whitesmoke”.
+
+- La etiqueta body tiene que tener un color de fondo “rgb(52, 52, 52)”.  */

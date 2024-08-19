@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <dialog id="gandalfModal">
+      <img
+        src="../assets/images/212653016_2964419517218804_5076577938706488678_n1.jpg"
+        alt="Gandalf"
+        width="400px"
+        height="400px"
+      />
+      <p>¡NO.. PUEDES... PASAR!</p>
+      <button
+        id="close"
+        onclick="document.getElementById('gandalfModal').close()"
+      >
+        Ok!
+      </button>
+    </dialog>
+    <button
+      id="show"
+      onclick="document.getElementById('gandalfModal').showModal()"
+    >
+      Mostrar
+    </button>
+  </body>
+</html>

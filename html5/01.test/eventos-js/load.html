@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algunos eventos js en linea</title>
+  </head>
+  <body>
+    <img
+      style="width: 300px"
+      src="../assets/images/212653016_2964419517218804_5076577938706488678_n1.jpg"
+      id="gandalfImage"
+      alt="Gandalf"
+    />
+    <p id="textId"></p>
+
+    <script>
+      document
+        .getElementById('gandalfImage')
+        .addEventListener('load', loadImage)
+      function loadImage() {
+        document.getElementById('textId').innerHTML = 'Image loaded'
+      }
+    </script>
+  </body>
+</html>
